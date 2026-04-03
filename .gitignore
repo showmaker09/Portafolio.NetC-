@@ -1,0 +1,39 @@
+# ==================================
+# ARCHIVOS DE ENTORNO Y PRUEBAS
+# ==================================
+*.http
+.env
+.env.development
+
+# ==================================
+# CARPETAS DE COMPILACIÓN (Muy pesadas)
+# ==================================
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+
+# ==================================
+# VISUAL STUDIO Y HERRAMIENTAS
+# ==================================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.log
+
+# ==================================
+# PAQUETES Y DEPENDENCIAS
+# ==================================
+# Paquetes NuGet locales
+*.nupkg
+packages/
+
+# Si usas algún framework frontend (React/Angular/Vue)
+node_modules/
+
+# ==================================
+# SISTEMA OPERATIVO
+# ==================================
+.DS_Store
+Thumbs.db
