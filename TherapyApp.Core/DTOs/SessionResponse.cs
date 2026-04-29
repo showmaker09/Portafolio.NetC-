@@ -11,10 +11,10 @@ namespace TherapyApp.Core.DTOs
         public Guid Id { get; set; }
         public Guid PatientId { get; set; }
         public Guid TherapistId { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime? EndDate { get; set; }
-        public string Status { get; set; } = string.Empty;
-        public int TotalEntries { get; set; }
+        public DateTime StartDate { get; set; } // fecha de inicio de la sesión
+        public DateTime? EndDate { get; set; } // fecha de fin de la sesión, puede ser null si la sesión aún está en curso
+        public string Status { get; set; } = string.Empty; // estado de la sesión (por ejemplo, "En curso", "Finalizada", "Cancelada")
+        public int TotalEntries { get; set; } // número total de entradas asociadas a esta sesión
 
     }
 }

@@ -16,12 +16,12 @@ public class TherapyDbContext : DbContext
     public DbSet<Report> Reports => Set<Report>();
     public DbSet<Notification> Notifications => Set<Notification>();
         
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder) // Configuración de las entidades y relaciones
     {
-        base.OnModelCreating(modelBuilder);
+        base.OnModelCreating(modelBuilder); // Llamamos al método base para asegurarnos de que se apliquen las configuraciones predeterminadas
 
         // Therapist
-        modelBuilder.Entity<Therapist>(e =>
+        modelBuilder.Entity<Therapist>(e =>  // Configuración de la entidad Therapist
         {
             e.HasKey(t => t.Id);
             e.Property(t => t.FullName).IsRequired().HasMaxLength(150);

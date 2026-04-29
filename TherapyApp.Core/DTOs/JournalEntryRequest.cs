@@ -12,6 +12,8 @@ namespace TherapyApp.Core.DTOs
         public string EntryType { get; set; } = string.Empty; // "feeling","thought","note"
         public string Content { get; set; } = string.Empty;
         public int MoodScore { get; set; }
+        public DateTime RecordedAt { get; set; } = DateTime.UtcNow;
+        
 
     }
 }

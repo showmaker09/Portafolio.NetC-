@@ -1,0 +1,7 @@
+# estos puntos seran en perspectiva del paciente es decir los campos que se deben llenar en un formulario de atencion medica de la interfaz de la aplicacion, y el objetivo es que el paciente pueda llenar estos campos para que el personal medico pueda tener una mejor idea de la situacion del paciente y brindarle una mejor atencion.
+
+# lugar en donde se encuentra el paciente al momento de sentirse mal, puede ser en su casa, trabajo, escuela, etc. Esto es importante para determinar el tipo de atención médica que se le debe brindar y para identificar posibles factores de riesgo relacionados con su entorno.
+# en estos momentos cuenta con personas a su alrededor que puedan ayudarlo como familiares, amigos, compañeros de trabajo, etc. Esto es importante para saber si el paciente tiene apoyo social y si puede recibir ayuda en caso de necesitar atención médica urgente.
+# horas de sueño en la ultima semana, esto es importante para evaluar el estado de salud general del paciente y para identificar posibles problemas de salud relacionados con la falta de sueño, como fatiga, estrés, ansiedad, etc.
+# alimentacion (frecuencia de comidas) en la ultima semana, esto es importante para evaluar el estado nutricional del paciente y para identificar posibles problemas de salud relacionados con una alimentación inadecuada, como deficiencias nutricionales, obesidad, etc.
+#
