@@ -14,8 +14,8 @@ namespace TherapyApp.Core.Models
         public string Content { get; set; } = string.Empty; 
         public int MoodScore { get; set; }                    // 1 al 10
         public DateTime RecordedAt { get; set; } = DateTime.UtcNow;
-        public DateTime? SyncedAt { get; set; }
-        public bool IsSynced { get; set; } = false;
+        public DateTime? SyncedAt { get; set; } // Para saber cuándo se sincronizó por última vez con el servidor
+        public bool IsSynced { get; set; } = false; // Para saber si la entrada ha sido sincronizada con el servidor
 
         // Navegación
         public Patient Patient { get; set; } = null!;

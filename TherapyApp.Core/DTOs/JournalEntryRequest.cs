@@ -12,8 +12,8 @@ namespace TherapyApp.Core.DTOs
         public string EntryType { get; set; } = string.Empty; // "feeling","thought","note"
         public string Content { get; set; } = string.Empty;
         public int MoodScore { get; set; }
-        public DateTime RecordedAt { get; set; } = DateTime.UtcNow;
-        
+        public DateTime RecordedAt { get; set; } = DateTime.UtcNow; // está en el request para permitir que el cliente envíe la fecha/hora de la entrada
+
 
     }
 }

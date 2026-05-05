@@ -11,3 +11,5 @@ namespace TherapyApp.Core.Interfaces
 
 
 }
+
+// revisar si esta en plural o singular y revisarlo en la implementacion de una clase 

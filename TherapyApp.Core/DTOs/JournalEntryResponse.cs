@@ -14,7 +14,7 @@ namespace TherapyApp.Core.DTOs
         public string Content { get; set; } = string.Empty;
         public int MoodScore { get; set; }
         public DateTime RecordedAt { get; set; }
-        public bool IsSynced { get; set; }
+        public bool IsSynced { get; set; } // Indica si la entrada ha sido sincronizada con el servidor
 
 
     }

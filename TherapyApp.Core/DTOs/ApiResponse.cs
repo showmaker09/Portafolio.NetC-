@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TherapyApp.Core.DTOs
 {
-    public class ApiResponse<T>
+    public class  ApiResponse<T> // clase genérica para estandarizar las respuestas de la API
     {
         public bool Success { get; set; }
         public string Message { get; set; } = string.Empty;

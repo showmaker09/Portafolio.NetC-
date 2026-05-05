@@ -10,3 +10,6 @@
 
 ## asíncrona: puedes iniciar una tarea que toma tiempo y, en lugar de quedarte de brazos cruzados esperando
 ## sigues haciendo otras cosas hasta que esa tarea termina. 
+
+## para correr el programa , en la terminal, escribe: F5
+## verificar si todo es correcto: ctrl + shift + b
